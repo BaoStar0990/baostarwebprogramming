@@ -44,6 +44,10 @@ header{
     z-index: 10;
 }
 
+.header-active{
+    background: hsla(0, 0%, 0%, 0.5);
+}
+
 .logo{
     height: 100%;
     margin-left: 3rem;
