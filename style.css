@@ -215,3 +215,24 @@ header{
 }
 
 /* end Contact */
+
+/* Copyright */
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./Assets/background_home.jpeg);
+    color: #fff;
+}
+.copyright h2{
+    margin-left: 2rem;
+}
+.copyright-avt{
+    width: 5vw;
+}
+.copyright-avt img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 0.4rem;
+}
+/* end Copyright */
