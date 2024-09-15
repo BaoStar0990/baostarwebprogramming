@@ -38,7 +38,10 @@ header{
     background: linear-gradient(to bottom, #000, #414141);
     justify-content: space-between;
     align-items: center;
-    /* position: absolute; */
+    transition: 0s;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .logo{
@@ -85,6 +88,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: 0s;
 }
 .home-title{
     color: #fff;
@@ -123,13 +127,12 @@ header{
 /* Exercises */
 .exercises{
     width: 100vw;
-    height: 100vh;
     background: url(./Assets/background_home.jpeg);
     color: #fff;
 }
 .exercises h1{
     text-align: center;
-    padding: 2rem 0;
+    padding: 6rem 0 2rem;
 }
 .ex-container{
     width: 80%;
@@ -137,6 +140,7 @@ header{
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 1rem;
+    padding-bottom: 6rem;
 }
 .ex-description{
     margin: 1rem 0;
